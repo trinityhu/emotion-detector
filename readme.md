@@ -14,6 +14,7 @@ This project uses a deep learning image classification algorithm to recognize hu
 How it was trained
   1. A dataset containing images of different emotions is collected (in this case I used my own pictures)
   2. Images are separated into training and validation folders
+     
      <img width="273" height="337" alt="Screenshot 2026-07-29 173720" src="https://github.com/user-attachments/assets/4b76c7e0-eb2d-40d0-b342-c94e6f5bef2f" />
   4. The ResNet18 model learns patterns from the training images
   5. The model is tested using validation images
