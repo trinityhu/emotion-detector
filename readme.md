@@ -14,7 +14,7 @@ This project uses a deep learning image classification algorithm to recognize hu
 How it was trained
   1. A dataset containing images of different emotions is collected (in this case I used my own pictures)
   2. Images are separated into training and validation folders
-     
+     <img width="273" height="337" alt="Screenshot 2026-07-29 173720" src="https://github.com/user-attachments/assets/4b76c7e0-eb2d-40d0-b342-c94e6f5bef2f" />
   4. The ResNet18 model learns patterns from the training images
   5. The model is tested using validation images
   6. The trained model is exported as an ONNX file
@@ -26,6 +26,8 @@ How the code works
   3. TensorRT optimizes the model so it can run efficiently on the Jetson Nano GPU
   4. The model returns a class prediction
   5. A labels file (labels.txt) converts the class number into an emotion name
+     <img width="693" height="128" alt="Screenshot 2026-07-29 173904" src="https://github.com/user-attachments/assets/b3d3587d-6059-4c60-87b2-d893b4c5a9b1" />
+
 
 Dependencies: Python 3, NumPy, Pillow, OpenCV, PyTorch, Torchvision, Jetson Inference, TensorRT, CUDA, cuDNN
 
