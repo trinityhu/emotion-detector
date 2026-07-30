@@ -1,4 +1,5 @@
-Emotion Detector by Trinity Hu
+Emotion Detector
+Trinity Hu
 
 My program uses a computer vision system and video camera to analyze facial expressions in real time. My trained AI model classifies emotions into four categories: happy, sad, neutral, and shocked.
 
