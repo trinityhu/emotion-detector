@@ -2,10 +2,10 @@ Emotion Detector
 Trinity Hu
 My program uses a computer vision system and video camera to analyze facial expressions in real time. My trained AI model classifies emotions into four categories: happy, sad, neutral, and shocked.
 Images:
-<img width="1612" height="1412" alt="Screenshot 2026-07-29 175137" src="https://github.com/user-attachments/assets/6d95e45f-31ed-4417-8d22-c2671d179778" />
-<img width="1621" height="1420" alt="Screenshot 2026-07-29 175023" src="https://github.com/user-attachments/assets/193ec359-9101-4f5e-8dc5-212e13fe047d" />
-<img width="1636" height="1426" alt="Screenshot 2026-07-29 174624" src="https://github.com/user-attachments/assets/ce8b73b6-6def-47e6-894d-6dfde1fc5f3a" />
-<img width="1615" height="1403" alt="Screenshot 2026-07-29 174323" src="https://github.com/user-attachments/assets/f71929ad-8129-4501-9e3e-9088dc5adc0d" />
+<img width="1615" height="1403" alt="Screenshot 2026-07-29 174323" src="https://github.com/user-attachments/assets/09c0776e-bfa7-4c02-8b73-4c8f4e61904f" />
+<img width="1636" height="1426" alt="Screenshot 2026-07-29 174624" src="https://github.com/user-attachments/assets/de8681eb-b3e6-431e-8968-5361e2913e28" />
+<img width="1612" height="1412" alt="Screenshot 2026-07-29 175137" src="https://github.com/user-attachments/assets/22d97c32-dc63-4de9-b0dd-793d069f9292" />
+<img width="1621" height="1420" alt="Screenshot 2026-07-29 175023" src="https://github.com/user-attachments/assets/d02b6fe6-05f3-4058-81c3-5b0ac7a6c04d" />
 
 The Algorithm
 
@@ -14,10 +14,11 @@ This project uses a deep learning image classification algorithm to recognize hu
 How it was trained
   1. A dataset containing images of different emotions is collected (in this case I used my own pictures)
   2. Images are separated into training and validation folders
-  3. The ResNet18 model learns patterns from the training images
-  4. The model is tested using validation images
-  5. The trained model is exported as an ONNX file
-  6. The ONNX model is loaded onto the Jetson Nano for real time detection.
+     
+  4. The ResNet18 model learns patterns from the training images
+  5. The model is tested using validation images
+  6. The trained model is exported as an ONNX file
+  7. The ONNX model is loaded onto the Jetson Nano for real time detection.
 
 How the code works
   1. The camera input is handled using OpenCV
