@@ -43,7 +43,7 @@ Running this project
   5. Now run the program on Rustdesk and a camera window should open
   6. An emotion will show real time on the top left corner of that window
 
-Video explanation & demonstration link:  
+Video explanation & demonstration link: https://drive.google.com/file/d/1Gy_4Uxs9INQYV5j0L0IAU3iapC_oadjo/view?usp=sharing
 
 
 
